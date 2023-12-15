@@ -2,8 +2,9 @@
     "version": 2,
     "name": "pulau-delight",
     "builds": [
-    { "src": "/src/templates/index.html", "use": "@vercel/static" },
+    { "src": "/src/templates/*.html", "use": "@vercel/static" },
     { "src": "/src/scripts/*.js", "use": "@vercel/node" }
-  ]
-    "routes": [{ "src": "/src/scripts/(.*)", "dest": "/index.js" }]
-  } 
+  ],
+    "routes": [{ "src": "/src/scripts/(.*)", "dest": "/index.js" }],
+    "public": true
+} 
