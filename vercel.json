@@ -6,7 +6,6 @@
       { "src": "/src/scripts/*.js", "use": "@vercel/node" }
     ],
     "routes": [{ "src": "/src/templates/(.*)", "dest": "/index.html" }],
-    "public": true,
-    "cleanUrls": true
+    "public": true
 } 
  
