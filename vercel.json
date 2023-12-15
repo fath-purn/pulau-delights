@@ -5,6 +5,6 @@
     { "src": "/src/templates/*.html", "use": "@vercel/static" },
     { "src": "/src/scripts/*.js", "use": "@vercel/node" }
   ],
-    "routes": [{ "src": "/src/scripts/(.*)", "dest": "/index.js" }],
+    "routes": [{ "src": "/src/scripts/routes(.*)", "dest": "/routes.js" }],
     "public": true
 } 
