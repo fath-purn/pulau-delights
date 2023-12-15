@@ -2,9 +2,8 @@
     "version": 2,
     "name": "pulau-delight",
     "builds": [
-    { "src": "/dist/*.html", "use": "@vercel/static" },
-    { "src": "/dist/*.js", "use": "@vercel/node" }
+    { "src": "/src/templates/*.html", "use": "@vercel/static" },
   ],
-    "routes": [{ "src": "/dist/(.*)", "dest": "/app.budle.js" }],
+    "routes": [{ "src": "/src/scripts/routes(.*)", "dest": "/routes.js" }],
     "public": true
 } 
