@@ -7,9 +7,6 @@
     ],
     "routes": [{ "src": "/src/templates/(.*)", "dest": "/index.html" }],
     "public": true,
-    "cleanUrls": true,
-    "redirects": [
-      { "source": "/", "destination": "/src/templates/index.html", "permanent": false }
-    ]
+    "cleanUrls": true
 } 
  
