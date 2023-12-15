@@ -6,5 +6,9 @@
     { "src": "/src/scripts/*.js", "use": "@vercel/node" }
   ],
     "routes": [{ "src": "/src/templates/(.*)", "dest": "/index.html" }],
-    "public": true
+    "public": true,
+    "cleanUrls": true,
+    "redirects": [
+      { "source": "/", "destination": "/src/templates/index.html", "permanent": false }
+    ]
 } 
