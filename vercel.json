@@ -12,3 +12,4 @@
       { "source": "/", "destination": "/src/templates/index.html", "permanent": false }
     ]
 } 
+ 
